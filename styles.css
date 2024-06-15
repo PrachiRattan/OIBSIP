@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgb(28, 56, 112);
+}
+.container{
+    background-image: url(../temperature_converter/Screenshot\ \(41\).png);
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    width: 80vh;
+    height:90vh;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70vh;
+    margin-top: 4vh;
+}
+h1{
+    margin-bottom: 30vh;
+    margin-left: 35vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.col{
+    font-weight: bolder;
+    font-size: 30px; 
+    margin-bottom: 30px;
+    margin-left: 30vh;
+    text-align: end;
+    
+}
+.col input{
+    text-align: center;
+    height:5vh;
+border-radius: 7px;
+}
